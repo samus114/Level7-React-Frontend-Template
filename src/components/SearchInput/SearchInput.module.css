@@ -23,6 +23,12 @@
     border: 2px solid #f26522;
     height:2.9em;
 }
+.SearchInput button2{
+padding: .8em 1em 1.75em;
+    background: #f26522;
+    border: 2px solid #f26522;
+    height:3.9em;
+}
 
 .SearchInput input:focus {
     outline: none;

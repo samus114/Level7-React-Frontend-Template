@@ -1,10 +1,10 @@
 export const properties = {
-    courseName: 'Level 7 Animal Search',
+    courseName: 'Level 7 Giraffe Search',
     endpoint: 'https://cheetah.api.jointheleague.org?q=',
-    description: 'Here is a brief description of the project.  Try to keep it to two or three sentences',
+    description: 'Search for D&D rules, abilities, and stat blocks. Preface it with [insert system here once we determine it]',
     backendSwaggerUrl: 'https://cheetah.api.jointheleague.org/',
-    createdBy: 'Student One, Student Two, Student Three',
-    repositoryUrl: 'https://github.com/LEAGUE-Level7/Cheetah-Search'
+    createdBy: 'Samson, Graham, Student Three',
+    repositoryUrl: 'https://github.com/samus114/Giraffe-Search'
 };
 
 /*
