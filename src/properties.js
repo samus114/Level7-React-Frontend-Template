@@ -1,7 +1,7 @@
 export const properties = {
-    courseName: 'Level 7 Giraffe Search',
+    courseName: 'DND Compendium',
     endpoint: 'http://localhost:5000/searchLocResults?q=',
-    description: 'Project that shows books based on the search input.',
+    description: 'A dictionary for all things dnd.',
     backendSwaggerUrl: 'http://localhost:5000/',
     createdBy: 'Samson Kempiak, Graham Garibaldi, Jayden Kudo',
     repositoryUrl: 'https://github.com/LEAGUE-Level7/G-Search'
