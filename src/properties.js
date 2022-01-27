@@ -1,19 +1,21 @@
 export const properties = {
-    courseName: 'Level 7 Giraffe Search',
-    endpoint: 'https://cheetah.api.jointheleague.org?q=',
-    description: 'Search for D&D rules, abilities, and stat blocks. Preface it with [insert system here once we determine it]',
-    backendSwaggerUrl: 'https://cheetah.api.jointheleague.org/',
-    createdBy: 'Samson, Graham, Student Three',
-    repositoryUrl: 'https://github.com/samus114/Giraffe-Search'
+
+    courseName: 'DND Compendium',
+    endpoint: 'http://localhost:5000/searchLocResults?q=',
+    description: 'A dictionary for all things dnd.',
+    backendSwaggerUrl: 'http://localhost:5000/',
+    createdBy: 'Samson Kempiak, Graham Garibaldi, Jayden Kudo',
+    repositoryUrl: 'https://github.com/LEAGUE-Level7/G-Search'
+
 };
 
 /*
-It is likely that you will also need to change the object that the frontend is expecting to receive from the service.
+//It is likely that you will also need to change the object that the frontend is expecting to receive from the service.
 
 
 SearchResult.js
-Change this to match the structure of your object.  Note that for cheetah search, it uses the map() function to
-destructure a list of authors that is returned from the query into a number of <p> tags:
+//Change this to match the structure of your object.  Note that for cheetah search, it uses the map() function to
+//destructure a list of authors that is returned from the query into a number of <p> tags:
 
 <article className={classes.Result}>
     <h1>Title: {props.title}</h1>
@@ -25,8 +27,8 @@ destructure a list of authors that is returned from the query into a number of <
      <a href={props.link} rel="noopener noreferrer" target="_blank">{props.link}</a>
 </article>
 
-If your object doesn't return any lists, you could simplify the above code greatly.  For example, the above code for
-a made up animal object may look like this:
+//If your object doesn't return any lists, you could simplify the above code greatly.  For example, the above code for
+//a made up animal object may look like this:
 
 <article className={classes.Result}>
     <h1>Species: {props.species}</h1>
@@ -35,8 +37,8 @@ a made up animal object may look like this:
 </article>
 
 
-The only other thing to do is to make sure to pass the correct values as props from SearchOutput.js to the
-SearchResults.  Continuing with the above animal example may look like this:
+//The only other thing to do is to make sure to pass the correct values as props from SearchOutput.js to the
+//SearchResults.  Continuing with the above animal example may look like this:
 
 SearchOutput.js: 22
 
@@ -46,5 +48,4 @@ SearchOutput.js: 22
     numberOfLegs={result.numberOfLegs}
     link={result.link}
 />
-
- */
+*/
