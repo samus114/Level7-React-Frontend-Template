@@ -1,11 +1,11 @@
 export const properties = {
 
-    courseName: 'DND Compendium',
+    courseName: 'Giraffe Search --- DND Compendium',
     endpoint: 'http://localhost:5000/searchLocResults?q=',
-    description: 'A dictionary for all things dnd.',
+    description: 'A dictionary for all things dnd. For example, to find stats for a Xorn, enter \"monsters xorn\"',
     backendSwaggerUrl: 'http://localhost:5000/',
     createdBy: 'Samson Kempiak, Graham Garibaldi, Jayden Kudo',
-    repositoryUrl: 'https://github.com/LEAGUE-Level7/G-Search'
+    repositoryUrl: 'https://github.com/samus114/Giraffe-Search'
 
 };
 
